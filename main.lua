@@ -18,3 +18,14 @@ local helper = require "math_helper"
 
 -- So we can use like this
 print(helper.vertexDistance(3, 5, 8, 18))
+
+-- Require our coloru helper
+local colour = require "colour"
+
+-- HEX to RGB
+local r, g, b = colour.hexToRGB("#335a9f")
+
+-- Did we assign the values properly?
+print("R value is: "..r)
+print("G value is: "..g)
+print("B value is: "..b)

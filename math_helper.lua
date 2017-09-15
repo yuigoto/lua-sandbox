@@ -10,7 +10,7 @@
 --]]
 
 -- Set up the math helper table
-local math_helper = {};
+local math_helper = {}
 
 --[[
     The two variables below exist so we don't compute their value all the 
