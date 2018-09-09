@@ -25,9 +25,9 @@ math_helper._rad_to_deg = 180 / math.pi
 --]]
 function math_helper.approach(start, finish, step)
     if start > finish then
-        return math.min(start + step, finish)
-    else 
         return math.max(start - step, finish)
+    else 
+        return math.min(start + step, finish)
     end
 end
 
