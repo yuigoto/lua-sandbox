@@ -1,0 +1,14 @@
+-- Whats a variable
+-- What is scope
+  -- Global Scope
+  -- Local Scope
+  -- Table properties
+-- Variable types
+  -- Number
+  -- String
+  -- Boolean
+  -- Nil
+  -- Userdata
+  -- Function
+  -- Thread
+  -- Table
